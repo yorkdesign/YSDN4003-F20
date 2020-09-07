@@ -1,0 +1,630 @@
+body.home, body.about, body.students{
+	background-image:url('../img/background_home.jpg');
+	background-position:center top;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	color:#fff;
+	margin:0;
+	font-family:Martel;
+	font-size:18px;
+}
+body.assignment{
+	background-image:url('../img/assignment-background_a.jpg');
+	background-position:center top;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	color:#252525;
+	margin:0;
+	font-family:Martel;
+	font-size:18px;
+}
+img{
+	width:100%;
+}
+.side-menu{
+	width:485px;
+	float:left;
+	font-family: 'Rubik', sans-serif;
+	font-weight:500;
+	padding:30px 0 0 30px;
+
+}
+.side-menu .wrapper{
+	position: fixed;
+    top: 50px;
+    width: 100%;
+    z-index: -2;
+}
+.main{
+	float:left;
+	width: calc(100% - 515px);
+	padding-top: 95px;
+}
+.page-title span{
+	background: white;
+    color: black;
+    padding: 10px;
+	font-family: Martel;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+}
+.main .content, .main .heading{
+	background:#252525;
+	box-shadow: inset 0px 10px 0px #FFFFFF, inset 2px 0px 0px #FFFFFF;
+}
+.main .content{
+	margin-top:30px;
+	padding: 50px 50px 600px 50px;
+}
+.content .wrapper{
+	max-width:900px;
+}
+.content p{
+	margin:30px 0;
+}
+.main>.wrapper{
+	max-width:900px;
+}
+.main .heading{
+	padding: 15px 50px;
+	margin-top:30px;
+	max-width:620px;
+}
+.main .heading h1{
+	font-family: 'Rubik', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 41px;
+}
+.home .main .heading h1 span{
+	font-family: Martel;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 42px;
+}
+.logo img{
+	width:30px;
+}
+.logo .tagline{
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
+	line-height: 165.78%;
+}
+.logo .tagline.yellow{
+	color: #FFCD00;
+}
+
+.logo .tagline.blue{
+	color: #40A8FF;
+}
+
+.logo .tagline.red{
+	color: #FF5A20;
+}
+
+.logo .tagline.green{
+	color: #2EE456;
+}
+
+
+
+
+ul{
+	list-style:none;
+	padding-left:0;
+	color:#fff;
+}
+.home a{
+	color:#fff;
+}
+.menu-list{
+	margin:25px 0;
+}
+.menu-list .items{
+	margin-bottom:10px;
+}
+.menu-list .items a{
+	padding:5px 10px;
+	font-size:12px;
+	color:#fff;
+	text-decoration:none;
+}
+.menu-list .items.active a{
+	background:#fff;
+	color:#000;
+}
+.menu-list .items a:hover{
+	background:#fff;
+	color:#000;
+}
+.side-menu .menu{
+	border-top: 1px dashed #FFFFFF;
+    border-bottom: 1px dashed #FFFFFF;
+	margin-top: 25px;
+	margin-left: -30px;
+    padding-left: 30px;
+}
+.direct-block{
+	padding-left:10px;
+	border-top: 1px dashed #FFFFFF;
+    padding-top: 15px;
+    margin-top: 20px;
+	margin-left: -30px;
+    padding-left: 40px;
+}
+.direct-block h5, .direct-block p{
+	font-size:10px;
+}
+figure{
+	margin:50px 0;
+}
+.date-block{
+	border: 4px solid #fff;
+	padding: 10px;
+	font-family:'Rubik', sans-serif;
+}
+.date-block h5{
+	font-size: 14px;
+    font-weight: 500;
+	margin-top:5px;
+	margin-bottom:0;
+}
+.date-block p{
+	font-size: 14px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.article{
+	margin:25px 0;
+}
+.article-content ul li{
+	font-family: Martel;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+}
+.article-content ul li.bold{
+	font-weight:bold;
+	font-size: 14px;
+}
+figure .caption p{
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 13px;
+	margin:5px 0;
+}
+figure .caption p span{
+	font-weight:500;
+}
+.content a:hover{
+	text-decoration:line-through;
+}
+
+
+.tab {
+	padding-left: 25px;
+	padding-right: 50px;
+}
+
+
+/*-----about page------------*/
+.about .main .content{
+	background: rgba(255, 255, 255, 0.90);
+	box-shadow: inset 0px 10px 0px #252525, inset 2px 0px 0px #252525;
+	color:#252525;
+}
+.about .main .heading{
+	max-width:fit-content;
+}
+.content-title{
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 135%;
+}
+.border-gap{
+	border-top: 10px solid #252525;
+}
+.img-wrapper{
+	background:#000;
+	text-align:center;
+	padding:30px 0;
+}
+.img-wrapper img{
+	width:250px;
+}
+.about a{
+	color:#252525;
+}
+.bio-image img{
+	width:150px;
+}
+.about .table{
+	border: 2px solid #252525;
+	display:flex;
+	margin-bottom:40px;
+}
+.about .table .td{
+	flex: 1;
+	padding:40px 30px;
+	border-right: 2px solid #252525;
+}
+.about .table .td:last-child{
+	border-right:0;
+}
+.about .table .td .count{
+	font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 83px;
+    margin: 10px 0;
+}
+.about .table .td .title{
+	font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 5px 0;
+}
+.about .bio-info{
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	column-gap: 35px;
+}
+.about .infos{
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 165.78%;
+	color: #252525;
+}
+.about .infos .bio-name>span{
+	font-weight: 500;
+}
+.about .testimonial{
+	max-width:750px;
+	margin:20px auto;
+}
+.about .testimonial h3{
+	max-width:600px;
+	font-family: Martel;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 146.2%;
+	margin-bottom: 10px;
+}
+.about .testimonial h6{
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 11px;
+	line-height: 13px;
+	margin-top: 10px;
+}
+.about .testimonial h6 span{
+	font-weight: normal;
+}
+.book-block .caption p{
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 13px;
+	margin-top:10px;
+}
+.book-block .caption p span{
+	font-weight: 500;
+}
+.quotes{
+	padding-left: 50px;
+}
+.quotes .item{
+	display: flex;
+    column-gap: 40px;
+	background:url('../img/background_statement.png');
+}
+.question-mark{
+	font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+.question{
+	font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+}
+/*---------students process-------*/
+.students .main .content{
+	background:transparent;
+	box-shadow:none;
+}
+.students .main .content .wrapper{
+	margin-left:-50px;
+}
+.student-item{
+	background:#252525;
+	box-shadow: inset 0px 10px 0px #FFFFFF, inset 2px 0px 0px #FFFFFF;
+	padding: 15px 50px;
+	margin-top:30px;
+	max-width:fit-content;
+}
+.student-item:hover{
+	background: rgba(255, 255, 255, 0.85);
+	box-shadow: inset 2px 0px 0px #252525, inset 0px 10px 0px #252525;
+}
+.student-item h3{
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 41px;
+	color:#fff
+}
+.student-item:hover h3{
+	color:#252525;
+}
+.student-wrapper, .student-wrapper:hover{
+	text-decoration:none !important;
+}
+
+/*------assignment-----------*/
+.assignment .menu-list .items a{
+	color: #FFCD00;
+}
+.assignment .menu-list .items.active a, .assignment .menu-list .items a:hover {
+    background: #FFCD00;
+    color: #252525;
+}
+.assignment .direct-block{
+	color: #FFCD00;
+}
+.assignment .main{
+	background: #FFCD00;
+	box-shadow: inset 0px 10px 0px #252525, inset 2px 0px 0px #252525;
+}
+.assignment .side-menu .menu, .assignment .direct-block{
+	border-color:#FFCD00;
+}
+.assignment .main .content{
+	background:transparent;
+	box-shadow:none;
+	padding-top:0;
+}
+.assignment .page-title span{
+	background:#252525;
+	color:#FFCD00;
+}
+.assignment .page-title span.right{
+	background: transparent;
+    color: #252525;
+    float: right;
+}
+.assignment .main .heading{
+	margin-left:50px;
+	background:transparent;
+	box-shadow: inset 0px 6px 0px #252525, inset 4px 0px 0px #252525;
+	max-width:100%;
+}
+.assignment .page-title{
+	padding-left: 50px;
+}
+.assignment .date-block{
+	border-color:#252525;
+}
+.assignment .main .heading h1{
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 47px;
+}
+.answers{
+	background: #252525;
+    padding: 10px 35px;
+}
+.answers ul{
+	position:relative;
+}
+.answers ul li{
+	color:#FFCD00;
+	padding-left:20px;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+	margin-bottom:10px;
+}
+.answers ul li:before{
+	content:'-';
+	position:absolute;
+	left:0;
+}
+.assignment .description{
+	padding:30px;
+	margin-top:-50px;
+}
+.assignment .description p{
+	font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 120%;
+	margin:30px 0;
+}
+
+.assignment .content a{
+	color:#252525;
+}
+
+.assignment .content ul{
+	color:#252525;
+}
+
+
+.assignment .article-content a{
+	color:#252525;
+}
+
+/*------assignment-----------*/
+
+.space {
+	padding-bottom: 225px;
+}
+
+@media screen and (max-width:1130px){
+	.side-menu{
+		width:350px;
+	}
+	/*.side-menu .wrapper{
+		width:calc(100% - 30px);
+	}*/
+	.main {
+    width: calc(100% - 380px);
+	}
+
+	.tab {
+	padding-left: 52px;
+	padding-right: 51px;
+}
+
+}
+@media screen and (max-width:768px){
+	.side-menu{
+		width:calc(100% - 30px);
+	}
+	.side-menu .wrapper{
+		position:static;
+	}
+	.menu-list {
+		margin: 20px 0;
+	}
+	.menu-list .items {
+		margin-bottom: 5px;
+	}
+	.main {
+    width: 100%;
+	}
+	.main .content{
+		box-shadow:none;
+		margin-top:0px;
+	}
+	.main .page-title{
+		padding:0 30px;
+	}
+	.main .heading{
+		max-width:100%;
+	}
+	.assignment .main{
+		padding-top: 50px;
+		margin-top:50px;
+		box-shadow: inset 0px 10px 0px #252525, inset 0px 0px 0px #252525;
+	}
+	.assignment .description {
+		padding:0;
+		margin-top:30px;
+	}
+	.student-item h3{
+		font-size: 25px;
+		line-height: 30px;
+		margin:0;
+	}
+	.student-item{
+		margin-top: 25px;
+		padding:20px 25px;
+	}
+	.students .main .content{
+		padding-bottom:50px;
+	}
+	.students .main .content .wrapper{
+		margin-left:0px;
+	}
+
+}
+@media screen and (max-width:550px){
+	.about .main .content{
+		box-shadow:none;
+	}
+	.about .table, .about .bio-info{
+		flex-direction: column;
+	}
+	.about .table .td{
+		border-bottom: 2px solid #252525;
+		border-right:0;
+		padding:25px;
+	}
+	.about .table .td:last-child{
+		border-bottom:0;
+	}
+	.about .img-wrapper img{
+		width: 120px;
+	}
+	.about .content-title{
+		font-size: 30px;
+		line-height: 36px;
+	}
+	.testimonial h3{
+		font-size: 25px;
+		line-height: 146.2%;
+	}
+	.main .content, .main .heading {
+		padding:15px 30px;
+	}
+	.answers{
+		margin:0 -30px;
+	}
+	
+	.assignment .main .heading{
+		margin:30px 0;
+	}
+	.assignment .main .heading h1{
+		font-size: 25px;
+		line-height: 30px;
+	}
+	.assignment .description p:last-child{
+		font-family: Martel;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.quotes{
+		padding-left: 0px;
+	}
+	.quotes .item{
+		display: flex;
+		flex-direction: column;
+	}
+	.question-mark{
+		font-size: 25px;
+		line-height: 30px;
+		margin-bottom:0 !important;
+	}
+	.question{
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+		.tab {
+	padding-left: 1px;
+	padding-right: 1px;
+}
+}
