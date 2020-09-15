@@ -1,0 +1,27 @@
+.answers ul li{
+	color: white;
+
+}
+
+.answers {
+	background-color: #424242;
+
+}
+
+p.spaceminus {
+	margin-top: -25px;
+}
+
+.small {
+	font-size: 12px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+p.spacebottom {
+	margin-bottom: -25px;
+}
+
+.break {
+	padding-top: 100px;
+}

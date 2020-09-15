@@ -1,0 +1,37 @@
+body.assignment{
+	background-image:url('../img/assignment3.jpg');
+}
+
+
+
+.assignment .side-menu .menu, .assignment .direct-block{
+	border-color:#40A8FF;
+}
+
+
+
+.assignment .main{
+	background: #40A8FF;
+	
+}
+
+.assignment .menu-list .items a{
+	color: #40A8FF;
+}
+
+.assignment .menu-list .items.active a, .assignment .menu-list .items a:hover {
+    background: #40A8FF;
+}
+
+.assignment .direct-block{
+	color: #40A8FF;
+}
+
+.assignment .page-title span{
+	
+	color:#40A8FF;
+}
+
+.answers ul li{
+	color: #40A8FF;
+}
